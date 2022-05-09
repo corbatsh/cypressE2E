@@ -21,6 +21,9 @@ describe('currencyExchange Test', () => {
 	})
 
 	it('Should display conversion amount', () => {
-		cy.get('#pc_conversion_amount').should('contain', '1180.50 pound (GBP) = 2000.00 U.S. dollar (USD)')
+		cy.get('#pc_conversion_amount').should(
+			'contain',
+			'1180.50 pound (GBP) = 2000.00 U.S. dollar (USD)'
+		)
 	})
 })

@@ -23,6 +23,8 @@ describe('Payment Test', () => {
 	})
 
 	it('Should show success message', () => {
-		cy.get('#alert_content').should('be.visible').and('contain', 'The payment was successfully submitted.')
+		cy.get('#alert_content')
+			.should('be.visible')
+			.and('contain', 'The' + ' payment was successfully submitted.')
 	})
 })
