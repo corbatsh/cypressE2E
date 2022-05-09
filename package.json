@@ -14,7 +14,9 @@
   "author": "Kamil Bortlik",
   "license": "MIT",
   "dependencies": {
-    "cypress": "^9.6.0",
     "prettier": "^2.6.2"
+  },
+  "devDependencies": {
+    "cypress": "^9.6.1"
   }
 }
